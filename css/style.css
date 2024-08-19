@@ -1,0 +1,88 @@
+/*
+color-primario: #886127
+color-secundario: #ffedd8
+color-terciario: #926305
+*/
+
+body{
+    background-color: #ffedd8;
+}
+
+
+h1{
+    color: #886127;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
+
+h3{
+    color: #976d2e;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
+ul{
+    color: #ad7607;
+}
+
+a{
+    color: #ad7607;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+}
+
+label{
+    font-size: 14px;
+}
+
+form{
+    color: #fdfdfd;
+    font-family: 'Lucida Sans Unicode';
+    padding: 2em;
+    padding-left: 30%;
+    background-image: url(../img/58\ -\ sRPHFEJ.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navegacion{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.navegacion li{
+    padding-left: 2em;
+}
+
+.formulario1{
+    width: 100%;
+    border: 1px #ad7607 solid;
+}
+
+.titulo1{
+    background-image: url(../img/anm_flcl_banner1.webp);
+    background-size: center;
+    padding: 1em;
+}
+
+footer{
+    color: #886127;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+@media (min-width:922px){
+    .navegacion{
+        flex-direction: row;
+    }
+    .formulario1{
+        width: 40%;
+    }
+    footer{
+        flex-direction: row;
+    }
+}
